@@ -1,8 +1,81 @@
 {
-    "Selecione o perfil do stakeholder": "técnico",
-    "Possui departamento excluivo para fiscalização?": "sim",
-    "Fiscaliza agências bancárias com frequencia?": "sim",
-    "Qual a influência do avaliado?": "nenhuma",
-    "Atua com frequência?": "sim",
-    "É vinculado a partido politico": "sim"
+    "stakeholder": [
+        {
+            "id": 1,
+            "nome": "zezinho",
+            "cargo": {
+                "id": 1,
+                "cargo": "dirigente"
+            },
+            "ambito": "estadual",
+            "partido": {
+                "id": 1,
+                "partido_sigla": "PT"
+            },
+            "perfil": "técnico",
+            "cidade": {
+                "id": 1,
+                "cidade": "São Paulo",
+                "uf": {
+                    "id": 25,
+                    "uf_sigla": "SP"
+                }
+            },
+            "curriculo": "advogado formado pela USP",
+            "representante": {
+                "id": 1,
+                "nome": "Paulinho"
+            },
+            "perguntas": {
+                "Selecione o perfil do stakeholder": "técnico",
+                "Possui departamento excluivo para fiscalização?": "sim",
+                "Fiscaliza agências bancárias com frequencia?": "sim",
+                "Qual a influência do avaliado?": "nenhuma",
+                "Atua com frequência?": "sim",
+                "É vinculado a partido politico": "sim",
+                "É correntista Itaú ?": "sim"
+            }
+        },
+        {
+            "id":2,
+            "nome": "Manoelzinho Pereira",
+            "cargo": {
+                "id": 1,
+                "cargo": "Prefeito"
+            },
+            "ambito": "municipal",
+            "partido": {
+                "id": 1,
+                "partido_sigla": "PMDB"
+            },
+            "perfil": "político",
+            "cidade": {
+                "id": 1,
+                "cidade": "São Paulo",
+                "uf": {
+                    "id": 25,
+                    "uf_sigla": "SP"
+                }
+            },
+            "curriculo": "engenheiro formado pela Unip",
+            "representante": {
+                "id": 1,
+                "nome": "Paulinho"
+            },
+            "perguntas": {
+                "Faz parte da base do executivo ?":"sim",
+                "Apresenta PLs ofensores para o setor ?": "não",
+                "É flexível pra emendas e substitutivos ?": "sim",
+                "Qual sua principal bandeira ?": "saúde",
+                "Já foi beneficiado com doação ou  patrocínios do Itaú ?":"Não",
+                "É autor de alguma lei impactante para o banco ?":"sim",
+                "É membro de qual comissão na casa ?":"sim",
+                "É influente na casa ?":"",
+                "Tem chance de reeleição ?":"",
+                "Temos relacionamento com esse stakeholder ?":"sim",
+                "Se sim, como avalia o grau de relacionamento?":"médio",
+                "É correntista Itaú ?": "não"
+            }
+        }
+    ]
 }
