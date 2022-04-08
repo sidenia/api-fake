@@ -77,5 +77,43 @@
                 "É correntista Itaú ?": "não"
             }
         }
+    ],
+    "uf": [
+        {
+            "id": 1,
+            "uf_sigla": "SP",
+            "uf_descricao":"São Paulo"
+        },
+        {
+            "id": 2,
+            "uf_sigla": "RJ",
+            "uf_descricao":"Rio de Janeiro"
+        },
+        {
+            "id": 3,
+            "uf_sigla": "MG",
+            "uf_descricao":"Minas Gerais"
+        }
+    ],
+    "cidade": [
+        {
+            "id": 1,
+            "cidade":"São Paulo",
+            "uf_id": {
+                "id": 1,
+                "uf_sigla": "SP",
+                "uf_descricao":"São Paulo"
+            }
+        }
+    ],
+    "cargo": [
+        {
+            "id": 1,
+            "cargo": "dirigente"
+        },
+        {
+            "id": 2,
+            "cargo": "governador"
+        }
     ]
 }
